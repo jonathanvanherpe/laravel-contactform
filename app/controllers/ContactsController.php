@@ -53,7 +53,7 @@ class ContactsController extends BaseController {
                         $data['contact'] = $contact;
                         Mail::send('emails.contactstore', $data, function($message)
                         {
-                            $message->to('mailer@freebase.be', 'mailer')->subject('Contact form results');
+                            $message->to('mailer@example.tld', 'mailer')->subject('Contact form results');
                         });
 			// redirect
 			Session::flash('message', 'Successfully created contact!');

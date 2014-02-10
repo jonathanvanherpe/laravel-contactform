@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => "mail@freebase.be", 'name' => "mailer"),
+	'from' => array('address' => "mail@example.tld", 'name' => "mailer"),
 
 	/*
 	|--------------------------------------------------------------------------
